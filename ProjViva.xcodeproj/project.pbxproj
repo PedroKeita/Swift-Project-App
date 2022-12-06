@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982060C029367FD9006594D0 /* onca.png in Resources */ = {isa = PBXBuildFile; fileRef = 982060BF29367FD9006594D0 /* onca.png */; };
 		9861D0FD2914359600C82D05 /* ProjVivaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D0FC2914359600C82D05 /* ProjVivaApp.swift */; };
 		9861D0FF2914359600C82D05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D0FE2914359600C82D05 /* ContentView.swift */; };
 		9861D1012914359800C82D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9861D1002914359800C82D05 /* Assets.xcassets */; };
 		9861D1042914359800C82D05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9861D1032914359800C82D05 /* Preview Assets.xcassets */; };
+		988A8B5F293922DF00EC6FAF /* button_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A8B5E293922DF00EC6FAF /* button_app.swift */; };
+		988A8B63293941C800EC6FAF /* boto.png in Resources */ = {isa = PBXBuildFile; fileRef = 988A8B62293941C800EC6FAF /* boto.png */; };
+		988A8B652939423400EC6FAF /* tela_de_perguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A8B642939423400EC6FAF /* tela_de_perguntas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		982060BF29367FD9006594D0 /* onca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onca.png; path = ../../../Downloads/onca.png; sourceTree = "<group>"; };
+		982060C12936831E006594D0 /* onca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onca.png; sourceTree = "<group>"; };
 		9861D0F92914359600C82D05 /* ProjViva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjViva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9861D0FC2914359600C82D05 /* ProjVivaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjVivaApp.swift; sourceTree = "<group>"; };
 		9861D0FE2914359600C82D05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9861D1002914359800C82D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9861D1032914359800C82D05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		988A8B5E293922DF00EC6FAF /* button_app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_app.swift; sourceTree = "<group>"; };
+		988A8B62293941C800EC6FAF /* boto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boto.png; path = ../../../Downloads/boto.png; sourceTree = "<group>"; };
+		988A8B642939423400EC6FAF /* tela_de_perguntas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela_de_perguntas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +60,14 @@
 		9861D0FB2914359600C82D05 /* ProjViva */ = {
 			isa = PBXGroup;
 			children = (
+				988A8B5E293922DF00EC6FAF /* button_app.swift */,
 				9861D0FC2914359600C82D05 /* ProjVivaApp.swift */,
 				9861D0FE2914359600C82D05 /* ContentView.swift */,
+				988A8B642939423400EC6FAF /* tela_de_perguntas.swift */,
 				9861D1002914359800C82D05 /* Assets.xcassets */,
+				988A8B62293941C800EC6FAF /* boto.png */,
+				982060BF29367FD9006594D0 /* onca.png */,
+				982060C12936831E006594D0 /* onca.png */,
 				9861D1022914359800C82D05 /* Preview Content */,
 			);
 			path = ProjViva;
@@ -127,6 +141,8 @@
 			files = (
 				9861D1042914359800C82D05 /* Preview Assets.xcassets in Resources */,
 				9861D1012914359800C82D05 /* Assets.xcassets in Resources */,
+				982060C029367FD9006594D0 /* onca.png in Resources */,
+				988A8B63293941C800EC6FAF /* boto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988A8B652939423400EC6FAF /* tela_de_perguntas.swift in Sources */,
+				988A8B5F293922DF00EC6FAF /* button_app.swift in Sources */,
 				9861D0FF2914359600C82D05 /* ContentView.swift in Sources */,
 				9861D0FD2914359600C82D05 /* ProjVivaApp.swift in Sources */,
 			);
