@@ -12,7 +12,7 @@
 		9861D0FF2914359600C82D05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9861D0FE2914359600C82D05 /* ContentView.swift */; };
 		9861D1012914359800C82D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9861D1002914359800C82D05 /* Assets.xcassets */; };
 		9861D1042914359800C82D05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9861D1032914359800C82D05 /* Preview Assets.xcassets */; };
-		988A8B5F293922DF00EC6FAF /* button_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A8B5E293922DF00EC6FAF /* button_app.swift */; };
+		98816A4329425D0E00FE610E /* tela_perguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98816A4229425D0E00FE610E /* tela_perguntas.swift */; };
 		988A8B63293941C800EC6FAF /* boto.png in Resources */ = {isa = PBXBuildFile; fileRef = 988A8B62293941C800EC6FAF /* boto.png */; };
 		988A8B652939423400EC6FAF /* tela_de_perguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A8B642939423400EC6FAF /* tela_de_perguntas.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 		9861D0FE2914359600C82D05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9861D1002914359800C82D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9861D1032914359800C82D05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		988A8B5E293922DF00EC6FAF /* button_app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_app.swift; sourceTree = "<group>"; };
+		98816A4229425D0E00FE610E /* tela_perguntas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela_perguntas.swift; sourceTree = "<group>"; };
 		988A8B62293941C800EC6FAF /* boto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boto.png; path = ../../../Downloads/boto.png; sourceTree = "<group>"; };
 		988A8B642939423400EC6FAF /* tela_de_perguntas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela_de_perguntas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,10 +60,10 @@
 		9861D0FB2914359600C82D05 /* ProjViva */ = {
 			isa = PBXGroup;
 			children = (
-				988A8B5E293922DF00EC6FAF /* button_app.swift */,
 				9861D0FC2914359600C82D05 /* ProjVivaApp.swift */,
 				9861D0FE2914359600C82D05 /* ContentView.swift */,
 				988A8B642939423400EC6FAF /* tela_de_perguntas.swift */,
+				98816A4229425D0E00FE610E /* tela_perguntas.swift */,
 				9861D1002914359800C82D05 /* Assets.xcassets */,
 				988A8B62293941C800EC6FAF /* boto.png */,
 				982060BF29367FD9006594D0 /* onca.png */,
@@ -154,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				988A8B652939423400EC6FAF /* tela_de_perguntas.swift in Sources */,
-				988A8B5F293922DF00EC6FAF /* button_app.swift in Sources */,
+				98816A4329425D0E00FE610E /* tela_perguntas.swift in Sources */,
 				9861D0FF2914359600C82D05 /* ContentView.swift in Sources */,
 				9861D0FD2914359600C82D05 /* ProjVivaApp.swift in Sources */,
 			);
