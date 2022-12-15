@@ -1,13 +1,11 @@
 //
-//  tela_perguntas.swift
+//  perguntas.swift
 //  ProjViva
 //
-//  Created by Gabriel de Carvalho Dias on 08/12/22.
+//  Created by Gabriel de Carvalho Dias on 13/12/22.
 //
 
 import SwiftUI
-
-        
 
 struct perguntas: View{
     
@@ -25,9 +23,8 @@ struct perguntas: View{
     
 }
 
-
-struct pergunta_Previews: PreviewProvider {
+struct perguntas_Previews: PreviewProvider {
     static var previews: some View {
-        pergunta()
+        perguntas()
     }
 }
